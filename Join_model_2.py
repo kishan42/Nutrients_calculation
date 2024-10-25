@@ -270,7 +270,31 @@ if dish_name:
       "parts": [
         "```json\n{\n\"Dish Name\": \"Medu Vada\",\n\"Dish Description\": \"Crispy lentil donuts, a popular South Indian breakfast.\",\n\"Cuisine Category\": \"Asia - Indian - South Indian\",\n\"Food Category\": \"Vegetarian\",\n\"Timing Category\": [\n\"Breakfast\",\n\"Lunch\",\n\"Snack\"\n],\n\"Meal Category\": [\n\"Appetizer\",\n\"Snack\",\n\"Finger Food\"\n],\n\"Cooking Method\": [\n\"Frying\"\n],\n\"Cooking Time\": \"20 minutes\",\n\"Cooking Temperature\": \"180°C\",\n\"Ingredients\": [\n\"Urad Dal - 100g\",\n\"Rice - 20g\",\n\"Green Chilies - 5g\",\n\"Ginger - 5g\",\n\"Curry Leaves - 2g\",\n\"Salt - 2g\",\n\"Oil - 50ml\"\n],\n\"Allergic Content\": {\n\"Tree Nuts\": [\n\"Cashews (Optional for Garnish)\"\n]\n},\n\"Serving Size\": \"200g\",\n\"Cooking Steps\": [\n\"1. Soak urad dal and rice in water for at least 4 hours.\",\n\"2. Drain and grind the soaked dal and rice into a smooth paste.\",\n\"3. Add chopped green chilies, ginger, curry leaves, and salt to the batter. Mix well.\",\n\"4. Heat oil in a pan over medium heat.\",\n\"5. Using a spoon, drop spoonfuls of batter into the hot oil. Flatten slightly with a spatula.\",\n\"6. Fry until golden brown and crispy on both sides.\",\n\"7. Remove from oil and drain on paper towels.\",\n\"8. Serve hot with sambar, chutney, or your favorite dipping sauce.\"\n]\n}\n``` \n",
       ],
-    }
+    },
+    {
+      "role": "user",
+      "parts": [
+        "if i enter \"Bear\" then you understand name as in food category bear as a drink don't take as any other category out of food , please keep your knowlegde in food dishes data not bias any other category",
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        "You are absolutely correct!  I need to be more focused on food-related terms. It seems I got distracted by the word \"bear\" as a general term.  \n\nFrom now on, when you enter a term, I will always try to interpret it as a food dish or ingredient, even if it's a common word with other meanings.  \n\nFor example, if you enter \"Bear\", I will understand it as a type of drink, like a \"Black Bear\" cocktail. I will not consider it as an animal or any other meaning outside of the context of food. \n\nThanks for helping me stay on track! \n",
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        "Bear",
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        "```json\n{\n\"Dish Name\": \"Black Bear\",\n\"Dish Description\": \"A sweet and tart cocktail made with blackberry liqueur, lemon juice, and vodka.\",\n\"Cuisine Category\": \"North America - American - Cocktails\",\n\"Food Category\": \"Non-vegetarian\",\n\"Timing Category\": [\n\"Dinner\",\n\"Snack\"\n],\n\"Meal Category\": [\n\"Beverage\",\n\"Drink\"\n],\n\"Cooking Method\": [\n\"Mixing\"\n],\n\"Cooking Time\": \"5 minutes\",\n\"Cooking Temperature\": \"N/A\",\n\"Ingredients\": [\n\"Blackberry Liqueur - 30ml\",\n\"Lemon Juice - 20ml\",\n\"Vodka - 30ml\",\n\"Simple Syrup - 10ml\",\n\"Blackberries - 10g\"\n],\n\"Allergic Content\": {\n\"Alcohol\": [\n\"Blackberry Liqueur\",\n\"Vodka\"\n]\n},\n\"Serving Size\": \"100ml\",\n\"Cooking Steps\": [\n\"1. Fill a cocktail shaker with ice.\",\n\"2. Add blackberry liqueur, lemon juice, vodka, and simple syrup.\",\n\"3. Shake well until chilled.\",\n\"4. Strain into a chilled cocktail glass.\",\n\"5. Garnish with a blackberry.\"\n]\n}\n```\n\nI'm doing my best to stay focused on food and beverages! Let me know if you have any other requests. \n",
+      ],
+    },
   ]
 )
 
